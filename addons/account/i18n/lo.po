@@ -9830,7 +9830,7 @@ msgstr "​ເຕື່ອນ"
 #: code:addons/account/models/account_invoice.py:499
 #, python-format
 msgid "Warning for %s"
-msgstr "​ເຕື່ອນ ເພື່ອ %S"
+msgstr "​ເຕື່ອນ ເພື່ອ %s"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.partner_view_buttons
