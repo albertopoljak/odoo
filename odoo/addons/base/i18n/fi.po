@@ -8023,7 +8023,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:base.action_partner_category_form
 #: model:ir.ui.view,arch_db:base.view_partner_category_list
 msgid "Contact Tags"
-msgstr ""
+msgstr "Yhteyshenkilön tunnisteet"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_title_contact
@@ -9542,7 +9542,7 @@ msgstr "Kulujen seuranta"
 #. module: base
 #: model:ir.module.category,name:base.module_category_hr_expense
 msgid "Expenses"
-msgstr "menot"
+msgstr "Menot"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_expense
