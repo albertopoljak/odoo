@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-19 13:42+0000\n"
-"PO-Revision-Date: 2018-02-19 13:42+0000\n"
+"POT-Creation-Date: 2018-04-20 11:58+0000\n"
+"PO-Revision-Date: 2018-04-20 11:58+0000\n"
 "Last-Translator: Simonel Criste <simi@erpsystems.ro>, 2017\n"
 "Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
@@ -373,6 +373,11 @@ msgid ""
 "                                        <span class=\"small\">&gt; 200 contacts</span>\n"
 "                                    </span>"
 msgstr ""
+"<span class=\"panel-title\">\n"
+"                                        <span class=\"fa\" data-icon=\"\"/>\n"
+"                                        <strong>Importă</strong><br/>\n"
+"                                        <span class=\"small\">&gt; 200 contacte</span>\n"
+"                                    </span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -785,12 +790,12 @@ msgstr "Stare activitate"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report_mail_activity_type_id
 msgid "Activity Type"
-msgstr ""
+msgstr "Tip activitate"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
-msgstr ""
+msgstr "Tipuri de activitate"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -845,7 +850,7 @@ msgstr ""
 "vei îmbunătăți continuu performanța"
 
 #. module: crm
-#: code:addons/crm/wizard/base_partner_merge.py:274
+#: code:addons/crm/wizard/base_partner_merge.py:273
 #, python-format
 msgid ""
 "All contacts must have the same email. Only the Administrator can merge "
@@ -855,7 +860,7 @@ msgstr ""
 " fuziona contacte cu diferite e-mailuri."
 
 #. module: crm
-#: code:addons/crm/models/crm_lead.py:905
+#: code:addons/crm/models/crm_lead.py:916
 #, python-format
 msgid ""
 "All email incoming to %s will automatically\n"
@@ -1921,7 +1926,7 @@ msgstr "Forțează alocare"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid "Formats phone numbers"
+msgid "Format phone numbers based on national conventions"
 msgstr ""
 
 #. module: crm
@@ -1933,7 +1938,7 @@ msgstr "De la %s : %s"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Future Activities"
-msgstr ""
+msgstr "Activități viitoare"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
@@ -2296,7 +2301,7 @@ msgstr "Ultima actualizare pe"
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Late Activities"
-msgstr ""
+msgstr "Activități întârziate"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:882
@@ -2527,7 +2532,7 @@ msgstr ""
 #. module: crm
 #: model:ir.actions.server,name:crm.action_mark_late_activities_done
 msgid "Mark Late Activities as Done"
-msgstr ""
+msgstr "Marchează activitățile întârziate ca Efectuate "
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
@@ -2784,7 +2789,7 @@ msgstr "Următoarea activitate este planificată"
 #. module: crm
 #: selection:crm.lead,kanban_state:0
 msgid "Next activity late"
-msgstr ""
+msgstr "Următoarea activitate întârziată"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:1146
@@ -3134,7 +3139,7 @@ msgstr "Telefon"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings_module_crm_phone_validation
-msgid "Phone Validation"
+msgid "Phone Formatting"
 msgstr ""
 
 #. module: crm
@@ -3420,13 +3425,13 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Sales Channel"
-msgstr ""
+msgstr "Canal de vânzare"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_config
 #: model:ir.ui.menu,name:crm.sales_team_menu_report_crm
 msgid "Sales Channels"
-msgstr ""
+msgstr "Canale de vânzări"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -3610,6 +3615,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Show all records which has next action date is before today"
 msgstr ""
+"Afișați toate înregistrările care au data următoarei acțiuni în trecut"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search

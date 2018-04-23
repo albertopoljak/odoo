@@ -2352,6 +2352,12 @@ msgid "Bank Statement"
 msgstr "Pankin tiliote"
 
 #. module: account
+#: code:addons/account/models/account_bank_statement.py:935
+#, python-format
+msgid "Bank Statement %s"
+msgstr ""
+
+#. module: account
 #: model:ir.model,name:account.model_account_bank_statement_line
 msgid "Bank Statement Line"
 msgstr "Pankkitiliotteen rivi"
@@ -5793,7 +5799,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_sent
 msgid "It indicates that the invoice has been sent."
-msgstr ""
+msgstr "Merkitsee, että lasku on lähetetty."
 
 #. module: account
 #: code:addons/account/models/account_move.py:1039
