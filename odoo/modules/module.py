@@ -330,6 +330,8 @@ def load_information_from_description_file(module, mod_path=None):
         f = tools.file_open(manifest_file)
         try:
             info.update(ast.literal_eval(f.read()))
+        except Exception as E:
+            print E
         finally:
             f.close()
 
