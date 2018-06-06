@@ -1386,7 +1386,11 @@ msgstr "Työpöytä"
 #: model:ir.model.fields,field_description:website.field_website_config_settings_default_lang_id
 #: model:ir.model.fields,field_description:website.field_website_default_lang_id
 msgid "Default Language"
+<<<<<<< HEAD
 msgstr "Oletuskieli"
+=======
+msgstr "Vakio kielivalinta"
+>>>>>>> 10.0-xk-rpc-fix
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_default_lang_code

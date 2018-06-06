@@ -2895,7 +2895,11 @@ msgid ""
 "                                        <small> or </small>"
 msgstr ""
 "地址\n"
+<<<<<<< HEAD
 "                                        <small>或</small>"
+=======
+"                                        <small>或/small>"
+>>>>>>> 10.0-xk-rpc-fix
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner

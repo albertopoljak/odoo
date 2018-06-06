@@ -1508,7 +1508,11 @@ msgstr "Koreguojamas mokestis"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_tax_adjustments_wizard_adjustment_type
 msgid "Adjustment Type"
+<<<<<<< HEAD
 msgstr "Korekcijos tipas"
+=======
+msgstr ""
+>>>>>>> 10.0-xk-rpc-fix
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.view_account_tax_template_form

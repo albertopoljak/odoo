@@ -3979,7 +3979,11 @@ msgstr ""
 #: model:project.task.type,legend_priority:project.project_stage_0
 msgid "Use the priority for tasks related to gold customers"
 msgstr ""
+<<<<<<< HEAD
 "Használja az elsőbbséget az arany fokozatú ügyfelekkel összefüggő feladatok "
+=======
+"Használja a prioritást az arany fokozatú ügyfelekkel összefüggő feladatok "
+>>>>>>> 10.0-xk-rpc-fix
 "esetében"
 
 #. module: project

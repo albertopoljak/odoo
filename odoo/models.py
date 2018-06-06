@@ -3919,7 +3919,14 @@ class BaseModel(object):
         for name, val in vals.iteritems():
             field = self._fields[name]
             if field.store and field.column_type:
-                updates.append((name, field.column_format, field.convert_to_column(val, self)))
+                try:
+                    updates.append((name, field.column_format, field.convert_to_column(val, self)))
+                except Exception as E:
+                    try:
+                        v2 = val.encode('utf-8')
+                        updates.append((name, field.column_format, field.convert_to_column(v2, self)))
+                    except Exception as E:
+                        pass
             else:
                 upd_todo.append(name)
 
