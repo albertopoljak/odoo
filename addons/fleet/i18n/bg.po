@@ -8,6 +8,7 @@
 # kalatchev, 2016
 # Kaloyan Naumov <kaloyan@lumnus.net>, 2016
 # preslav <hackerz99999@gmail.com>, 2016
+# Maria Boyadjieva <marabo2000@gmail.com>, 2016
 # Radina <radis.choice@gmail.com>, 2016
 # Vladimir Petrov <vladimir.petrov@gmail.com>, 2017
 # kirily <kiril@teracomp.eu>, 2017
@@ -146,7 +147,7 @@ msgstr "Автоматичен"
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_fuel_auto_generated
 #: model:ir.model.fields,field_description:fleet.field_fleet_vehicle_log_services_auto_generated
 msgid "Automatically Generated"
-msgstr "Автоматично генериран"
+msgstr "Автоматично създаден"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_8
@@ -166,7 +167,7 @@ msgstr ""
 #. module: fleet
 #: selection:fleet.service.type,category:0
 msgid "Both"
-msgstr ""
+msgstr "и двата"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_11
@@ -294,7 +295,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
 msgid "Click to create a new service entry."
-msgstr ""
+msgstr "Натиснете бутона, за да създадете нов сервизен запис."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_service_types_action
@@ -669,7 +670,7 @@ msgstr "Смяна ангренажен ремък"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_13
 msgid "Entry into service tax"
-msgstr ""
+msgstr "Запис в обслужващ данък"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_21

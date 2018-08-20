@@ -504,7 +504,8 @@ class Lead(FormatAddress, models.Model):
         for field in fields:
             value = getattr(self, field.name, False)
             if field.ttype == 'selection':
-                value = dict(field.get_values(self.env)).get(value, value)
+                selections = self.fields_get()[field.name]['selection']
+                value = next((v[1] for v in selections if v[0] == value), value)
             elif field.ttype == 'many2one':
                 if value:
                     value = value.sudo().name_get()[0][1]
@@ -657,6 +658,8 @@ class Lead(FormatAddress, models.Model):
     @api.model
     def _get_duplicated_leads_by_emails(self, partner_id, email, include_lost=False):
         """ Search for opportunities that have the same partner and that arent done or cancelled """
+        if not email:
+            return []
         partner_match_domain = []
         for email in set(email_split(email) + [email]):
             partner_match_domain.append(('email_from', '=ilike', email))

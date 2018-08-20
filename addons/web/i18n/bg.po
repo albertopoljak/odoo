@@ -8,6 +8,7 @@
 # Kaloyan Naumov <kaloyan@lumnus.net>, 2016
 # Antoan Georgiev <expocarbg@gmail.com>, 2016
 # Radina <radis.choice@gmail.com>, 2016
+# Maria Boyadjieva <marabo2000@gmail.com>, 2016
 # preslav <hackerz99999@gmail.com>, 2016
 # Anton Vassilev, 2016
 # Albena Mincheva <albena_vicheva@abv.bg>, 2018
@@ -833,7 +834,7 @@ msgstr "Редактиране изгледа за търсене"
 #: code:addons/web/static/src/xml/base.xml:131
 #, python-format
 msgid "Edit Workflow"
-msgstr "Редактиране работен поток"
+msgstr "Редактирайте работния процес"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login
@@ -937,7 +938,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1059
 #, python-format
 msgid "Favorites"
-msgstr ""
+msgstr "Фаворити"
 
 #. module: web
 #. openerp-web
@@ -1625,7 +1626,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views/pivot_view.js:30
 #, python-format
 msgid "Pivot"
-msgstr ""
+msgstr "Център"
 
 #. module: web
 #. openerp-web
@@ -1693,7 +1694,7 @@ msgstr "Печат"
 #: code:addons/web/static/src/xml/base.xml:154
 #, python-format
 msgid "Print Workflow"
-msgstr ""
+msgstr "Разпечатайте работен процес"
 
 #. module: web
 #. openerp-web
@@ -1728,7 +1729,7 @@ msgstr "Премахване на всичко"
 #: code:addons/web/static/src/js/views/form_relational_widgets.js:323
 #, python-format
 msgid "Render"
-msgstr ""
+msgstr "Конвертирайте"
 
 #. module: web
 #. openerp-web
