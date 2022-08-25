@@ -217,7 +217,7 @@ msgstr "<i class=\"fa fa-arrow-right\"/> إضافة معالجات سداد"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_buy_now
 msgid "<i class=\"fa fa-bolt\"/> Buy Now"
-msgstr ""
+msgstr "<i class=\"fa fa-bolt\"/> اشترِ الآن "
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_kanban
@@ -264,7 +264,7 @@ msgstr "<i class=\"fa fa-print\"/> طباعة"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 msgid "<i class=\"fa fa-shopping-cart\"/> Add to Cart"
-msgstr ""
+msgstr "<i class=\"fa fa-shopping-cart\"/> إضافة إلى عربة التسوق "
 
 #. module: website_sale
 #: code:addons/website_sale/models/crm_team.py:0
@@ -848,6 +848,16 @@ msgstr "وصف الفئة "
 #: model:product.public.category,name:website_sale.public_category_furnitures_chairs
 msgid "Chairs"
 msgstr "كراسي"
+
+#. module: website_sale
+#: code:addons/website_sale/controllers/main.py:0
+#, python-format
+msgid ""
+"Changing your name is not allowed once invoices have been issued for your "
+"account. Please contact us directly for this operation."
+msgstr ""
+"لا يسمح بتغيير اسمك بعد إصدار الفواتير لحسابك. الرجاء التواصل معنا مباشرة "
+"لإتمام هذه العملية."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__child_id

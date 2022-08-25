@@ -22,8 +22,8 @@
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2021
 # grupoda2 <dmitrijus.ivanovas@gmail.com>, 2021
 # Linas Versada <linaskrisiukenas@gmail.com>, 2021
-# Jonas Zinkevicius <jozi@odoo.com>, 2021
 # Martin Trigaux, 2022
+# Jonas Zinkevicius <jozi@odoo.com>, 2022
 # Ramunė ViaLaurea <ramune.vialaurea@gmail.com>, 2022
 # 
 msgid ""
@@ -3624,7 +3624,7 @@ msgstr "Pardavimo taško užsakymų ataskaita"
 #: model:ir.model,name:point_of_sale.model_pos_payment_method
 #: model:ir.model.fields,field_description:point_of_sale.field_account_journal__pos_payment_method_ids
 msgid "Point of Sale Payment Methods"
-msgstr ""
+msgstr "Pardavimo taško mokėjimo būdai"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_payment
@@ -4520,7 +4520,7 @@ msgstr "Nustatykite parduotuvių kainas, sezonines nuolaidas ir t.t."
 #: code:addons/point_of_sale/static/src/js/Screens/ProductScreen/ProductScreen.js:0
 #, python-format
 msgid "Set the new quantity"
-msgstr ""
+msgstr "Nustatyti naują kiekį"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_configuration
