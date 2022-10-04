@@ -467,7 +467,7 @@
 "kp_rrif1950","l10n_hr_chart_template_rrif","asset_current","","1950","Unaprijed plaćene franšize, trgovačko znakovlje, prava i sl. (do 12 mj.)-a1"
 "kp_rrif1960","l10n_hr_chart_template_rrif","asset_current","","1960","Unaprijed plaćene licencije i patenti (do 12 mj.)-a1"
 "kp_rrif1999","l10n_hr_chart_template_rrif","asset_current","","1999","Ostala aktivna vremenska razgraničenja"
-"kp_rrif2000","l10n_hr_chart_template_rrif","liability_payable","","20000","Obveze prema poduzetnicima unutar grupe za primljene robe i usluge"
+"kp_rrif2000","l10n_hr_chart_template_rrif","liability_payable",True,"20000","Obveze prema poduzetnicima unutar grupe za primljene robe i usluge"
 "kp_rrif2001","l10n_hr_chart_template_rrif","liability_current","","20001","Obveze za raspoređeni dobitak prema poduzetnicima unutar grupe"
 "kp_rrif2002","l10n_hr_chart_template_rrif","liability_current","","20002","Obveze za kamatu prema poduzetnicima unutar grupe"
 "kp_rrif2003","l10n_hr_chart_template_rrif","liability_current","","20003","Obveze za predujmove prema poduzetnicima unutar grupe"
