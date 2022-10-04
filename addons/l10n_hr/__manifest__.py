@@ -19,6 +19,7 @@ Author:
   - Goran Kliska, Exocdica d.o.o - original module for v6.1  
     (cla/ex : Decodio-applications d.o.o., ex Slobodni programi d.o.o.)
   - Davor Bojkić, Daj mi 5 - port to odoo 16, update tax schema to 2022
+  - Alberto Poljak, e-Sustavi d.o.o - update port for Odoo 16
     
 
 Description
