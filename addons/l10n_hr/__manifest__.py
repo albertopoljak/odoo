@@ -61,6 +61,7 @@ Porezi prema pozicijama PDV obrasca:
     - PPDV 25% Usluge
     - PPDV 25% na Predujam
     - PPDV 13% na Dobra
+    - PPDV 13% Usluge
     - PPDV 13% na Predujam  
     - PPDV 5% na Dobra 
     - PPDV 5% na Predujam

@@ -721,6 +721,38 @@
             }),
         ]"/>
     </record>
+    <record id="rrif_pp_13u" model="account.tax.template">
+        <field name="description">PPDV 13%</field>
+        <field name="chart_template_id" ref="l10n_hr_chart_template_rrif"/>
+        <field name="name">PPDV 13% Usluge</field>
+        <field name="amount">13</field>
+        <field name="amount_type">percent</field>
+        <field name="type_tax_use">purchase</field>
+        <field name="sequence" eval="20"/>
+        <field name="tax_group_id" ref="tax_group_13"/>
+        <field name="invoice_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'repartition_type': 'base',
+                'plus_report_expression_ids': [ref('account_tax_report_line_III_2_o_tag')],
+            }),
+            (0,0, {
+                'repartition_type': 'tax',
+                'account_id': ref('kp_rrif140011'),
+                'plus_report_expression_ids': [ref('account_tax_report_line_III_2_p_tag')],
+            }),
+        ]"/>
+        <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
+            (0,0, {
+                'repartition_type': 'base',
+                'minus_report_expression_ids': [ref('account_tax_report_line_III_2_o_tag')],
+            }),
+            (0,0, {
+                'repartition_type': 'tax',
+                'account_id': ref('kp_rrif140011'),
+                'minus_report_expression_ids': [ref('account_tax_report_line_III_2_p_tag')],
+            }),
+        ]"/>
+    </record>
     <record id="rrif_pp_13a" model="account.tax.template">
         <field name="description">PPDV 13%</field>
         <field name="chart_template_id" ref="l10n_hr_chart_template_rrif"/>
